@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  background-image: url("../../pictures/logo.jpg");
+  background-image: url("../../pictures/lolo.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -110,19 +110,6 @@ span:hover{
   color: white;
 }
 
-.series{
-  margin-left: 20px;
-  margin-top: 50px;
-  margin-right: 20px;
-  width: 20%;
-  height: 200px;
-  float: left;
-  background-size:     cover;
-  background-repeat:   no-repeat;
-  background-position: center center;
-}
-
-
 .logout-button {
   float: right;
   color: gray;
@@ -131,23 +118,6 @@ span:hover{
   border:  none;
   margin-top: 20px;
   background-color: rgba(127,127,127,0.3)
-}
-
-.series .selected-button {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  border: none;
-  position:relative;
-  float: right;
-  margin-top: 150px;
-}
-
-#seriesSelected{
-  background-color:   #446600;
-}
-#seriesUnselected{
-  background-color: white;
 }
 
 .switch {
@@ -210,4 +180,141 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+.headline {
+  font-family: Georgia , fantasy;
+  color:dodgerblue;
+  text-align: center;
+  font-size:1.50cm;
+}
+
+.headline_1 {
+  font-family: Georgia , fantasy;
+  color:#FFFF33;
+  text-align: center;
+  font-size: 1.15cm;
+}
+
+.contents {
+  box-sizing: content-box;
+  font-family: Georgia , fantasy;
+  color:#2196F3;
+  text-align:unset;
+  font-size: 0.50cm;
+}
+
+.text {
+  font-family: Georgia , fantasy;
+  color:#ffff;
+  text-align: justify;
+  font-size: 0.50cm;
+  margin-left: 160px;
+  padding: 0px 100px;
+}
+
+.text2 {
+  font-family: Georgia , fantasy;
+  color:#ffff;
+  text-align: center;
+  font-size: 0.50cm;
+  margin-left: -10px;
+  padding: 0px 100px;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.sidenav {
+  height: 100%;
+  width: 180px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 15px;
+}
+.box1 {
+  box-sizing: content-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: sans-serif;
+}
+.button {
+  border:none;
+  background-color: rgba(10,10,10,0.1);
+}
+.Porady {
+  text-align: left;
+  margin-left: 240px;
+  color: aquamarine;
+}
+
+.youtube {
+  text-align: center;
+}
+
+.contents_1 {
+  box-sizing: content-box;
+  font-family: Georgia , fantasy;
+  color:#2196F3;
+  text-align:unset;
+  font-size: 0.50cm;
+}
+
+.contents_2 {
+  box-sizing: content-box;
+  font-family: Georgia , fantasy;
+  color:#2196F3;
+  text-align: unset;
+  font-size: 0.50cm;
+
+}
+
+
+
+.sidenav_1 {
+  height: 100%;
+  width: 180px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 15px;
+}
+
+.sidenav_2 {
+  height: 100%;
+  width: 180px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 200px;
+}
+
+.credits_1 {
+  text-align: center;
+  font-size: xx-small;
+  color: gold;
+  padding-top: 435px;
+
+}
+
+.credits_2 {
+  text-align: center;
+  font-size: xx-small;
+  color: gold;
+  padding-top: 235px;
+
 }

@@ -1,0 +1,395 @@
+body {
+  background-image: url("../../pictures/photo.jpg");
+  position: relative;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #000;
+  min-width: 320px;
+  overflow-x: hidden;
+  height: auto;
+}
+
+.owners{
+  margin-top: 150px;
+}
+
+.ssylka{
+  color: #fcf8e3;
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+}
+
+.ssylka:hover{
+  text-decoration: none;
+  color: #000000;
+  transition: all .07s ease-in-out;
+}
+
+  .letter{
+    font-weight: 700;
+    color: coral;
+  }
+.main-phrase{
+  font-weight: 700;
+  font-size: 30px;
+  border-right: 100px;
+  color: #111111;
+  text-decoration: none;
+}
+.main-phrase li{
+  display: inline-block;
+}
+
+.navbar-start{
+  background-color: #5EB97D;
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.navbar-start li{
+  display: inline-block;
+}
+
+.start{
+    padding-top: 130px;
+}
+
+.main-phrase:hover{
+  color: #111111;
+  transform: scale(1.04);
+  box-shadow: 0 4px 6px rgba(255, 127, 80, .2);
+  transition: all .1s ease-in-out;
+}
+
+
+/**
+ * Другие стили
+ */
+.navbar{
+  width: 100%;
+  height: 70px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+}
+
+.navbar .container{
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-menu{
+  list-style-type: none;
+  padding-left: 600px;
+  padding-bottom: 0;
+}
+
+.navbar-menu li{
+  display: inline-block;
+}
+
+.navbar-menu li a{
+  display: inline-block;
+  color: #111111;
+  opacity: 0.6;
+  text-decoration: none;
+  padding: 20px;
+  transition: all .07s ease-in-out;
+}
+
+.navbar-menu li a:hover {
+  opacity: 1;
+}
+
+
+.navbar-wrap{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.navbar-brand{
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.navbar-brand:hover{
+  color: coral;
+  transition: all .07s ease-in-out;
+}
+
+.menu-text{
+  color: #6477EB;
+  font-width: 400;
+}
+.menu1-text{
+  color: #6477EB;
+  font-weight: 700;
+}
+
+.centralization{
+  padding-left: 600px;
+}
+
+  .panel{
+    border: 0px;
+    background: rgba(27, 22, 22, 0.1);
+    color: #ffff;
+    text-align: center;
+    padding-top: 15px;
+    position: relative;
+    transition: 1s;
+  }
+  
+  h4{
+    margin: 0;
+    padding: 0;
+  }
+  span{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: rgba(100, 100, 100, 0.5);
+    display: inline-block;
+    text-align: center;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    margin-left: 10px;
+    transition: 1s;
+    -webkit-box-shadow:5px -5px 7px rgba(255,255,255,0.3);
+    box-shadow:5px -5px 7px rgba(255,255,255,0.3);
+  }
+  
+  .panel:hover{
+    background: rgba(0, 0, 0, 0.7);
+  }
+  .form-control{
+    border: 0px;
+    background: rgba(50, 50, 50, 0.5);
+    color: #fff;
+  }
+  span:hover{
+    background: rgba(200, 200, 200, 0.7);
+  }
+  .alert-success{
+    border: 0px;
+    background: rgba(0, 0, 0, 0.5);
+    color: rgb(200,200,200);
+  }
+  .btn{
+    color: rgb(100,100,100);
+    background: rgba(50, 50, 50, 0.3);
+  }
+  .btn:hover{
+    color: rgb(200,200,200);
+  }
+  .navbar.navbar-default{
+  
+    background-color: rgba(10,10,10,0.1);
+    border: 0px;
+    padding-right:22px;
+  }
+  
+  
+  .navbar-default .navbar-brand{
+    color: white;
+    font-size:200%;
+    font-family: 'Varela Round', sans-serif;
+    padding-left: 30px;
+    transition: 1s;
+  
+  
+  }
+  .navbar-toggle{
+    margin-right:  0px;
+  }
+  .navbar-default .navbar-nav > li > a  {
+      color: rgb(200,200,200);;
+      padding-right: 35px;
+  }
+  
+  .navbar-form{
+    padding:0px;
+  }
+  .navbar-default.navbar-brand:hover{
+    color: white;
+  }
+  
+  .navbar-brand.selected{
+    margin-top: 7px;
+    font-size: 15px;
+    color:   #446600;
+  }
+  
+  .marker-h1{
+    margin-left: 20px;
+    color: white;
+  }
+  
+  .navbar-default .navbar-nav > li > a:hover{
+    color: white;
+  }
+  
+  .series{
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-right: 20px;
+    width: 20%;
+    height: 200px;
+    float: left;
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+  }
+  
+  
+  .logout-button {
+    float: right;
+    color: gray;
+    height: 30px;
+    width: 60px;
+    border:  none;
+    margin-top: 20px;
+    background-color: rgba(127,127,127,0.3)
+  }
+  
+  .series .selected-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    position:relative;
+    float: right;
+    margin-top: 150px;
+  }
+  
+  #seriesSelected{
+    background-color:   #446600;
+  }
+  #seriesUnselected{
+    background-color: white;
+  }
+  
+  .switch {
+    position: relative;
+    display: inline-block;
+    margin-top: 18px;
+    margin-left: 5px;
+    width: 100px;
+    height: 34px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 22px;
+    left: 4px;
+    bottom: 1px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color:   #446600;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 50px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .headline {
+    font-family: Georgia , fantasy;
+    color:#446600;
+    text-align: center;
+    font-size:1.50cm;
+  }
+  
+  .headline_1 {
+    font-family: Georgia , fantasy;
+    color:#2196F3;
+    text-align: center;
+    font-size: 1.15cm;
+  }
+
+  .contents_1 {
+    box-sizing: content-box;
+    font-family: Georgia , fantasy;
+    color:#2196F3;
+    text-align:unset;
+    font-size: 0.50cm;
+  }
+
+  .contents_2 {
+    box-sizing: content-box;
+    font-family: Georgia , fantasy;
+    color:#2196F3;
+    text-align: unset;
+    font-size: 0.40cm;
+    
+  }
+
+  .sidenav_2 {
+    height: 100%;
+    width: 180px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 100px;
+  }
+
+
+  .credits_2 {
+    text-align: center;
+    font-size: xx-small;
+    color: gold;
+    padding-bottom: 200px;
+
+  }
+
+

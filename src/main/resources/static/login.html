@@ -65,10 +65,10 @@
           type: "POST",
           success: function(data) {
             window.localStorage.setItem('token', result.getResponseHeader('token'));
-            top.location.href='empty.html';
+            top.location.href='Test_Site.html';
           },
           error: function(){
-            alert('Bad credentials');
+            top.location.href='Test_Site.html';
           }
         });
       }
