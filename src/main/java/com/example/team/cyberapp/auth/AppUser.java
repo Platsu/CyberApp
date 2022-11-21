@@ -12,6 +12,7 @@ import lombok.Setter;
 public class AppUser extends BaseUser {
 
   private long id;
+  //test
   private String name;
 
   public AppUser(AppUser user) {
